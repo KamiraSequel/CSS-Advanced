@@ -1,0 +1,22 @@
+*{
+    padding: 15px;
+}
+
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+div{
+    border: solid #AF0B0E 15px;
+    margin: 15px auto;
+}
+
+div p{
+    font-family: Georgia, serif;
+}
+
+div > div> div> div{
+    background-color: aqua;
+}
+
