@@ -1,0 +1,30 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: lightblue;
+    --bg-color: white;
+    --heading-color: black;
+}
+
+[data-theme="dark"] {
+    --primary-color: blueviolet;
+    --secondart-color: purple;
+    --font-color: hotpink;
+    --bg-color: black;
+    --heading-color: violet;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: calc(1rem + 0.25vh);
+}
+
+h1 {
+    color: var(--heading-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
